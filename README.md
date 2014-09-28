@@ -123,9 +123,9 @@ So when a parser does parsing on a web page:
          */
         for (String keyword : keywords) {
         	if (stopList.contains(keyword) 
-// _checks if this keyword is current machines responsibility_
-// _for standalone mode, this always returns true_
-// _so the machine always processes all keywords._
+        // _checks if this keyword is current machines responsibility_
+        // _for standalone mode, this always returns true_
+        // _so the machine always processes all keywords._
 			|| takesChargeOf(keyword) == false) {
                 continue;
             }
@@ -208,6 +208,7 @@ So when a parser does parsing on a web page:
     }
 
 Index Structure:
+
 `[
 “foo”:
 		[10:{title:”a page with foo”,url:”www.a.com/a”,hash:”AHDK2…AWH”},
@@ -216,4 +217,5 @@ Index Structure:
 		[…],
 …
 ]`
+
 where foo is keyword, 10 and 8 are the occurrence in each page.
