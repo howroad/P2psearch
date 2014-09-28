@@ -219,3 +219,12 @@ Index Structure:
 ]`
 
 where foo is keyword, 10 and 8 are the occurrence in each page.
+each keyword index is stored as a file, as in `File postingListFile = new File(fileAbsPath + "pageRepo/keywords",keywordHash + "Tree”);`.
+
+Since I had to use our lab’s machines, I didn’t get any database for storing purpose. 
+
+# 2. Searching(Searcher.java)
+Search is pretty straightforward, on a machine where a keyword file is existing, it finds the file, the “postingListFile” as said a few lines back. And iterates through it and return a particular portion of it, reflected on the search result page as results for a particular page number.
+
+# 3. P2P implementation(Chord/*.java)
+	To be written.
