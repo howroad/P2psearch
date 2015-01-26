@@ -1,3 +1,5 @@
+Not sure what bug made 3 commits come from “wooky” but they should be from me..
+
 # A simple P2P search engine
 This is a final project for a data structure class. As of the time I wrote this read me it’s been 1 and half year since. 
 
